@@ -1,5 +1,8 @@
 # sql-challenge
+![dylan-gillis-KdeqA3aTnBY-unsplash](https://github.com/user-attachments/assets/0b522cd8-adaa-456f-9fa6-1ab3fd8c5416)
 
+Photo by <a href="https://unsplash.com/@dylandgillis?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dylan Gillis</a> on <a href="https://unsplash.com/photos/people-sitting-on-chair-in-front-of-table-while-holding-pens-during-daytime-KdeqA3aTnBY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
 <h1>Module 9</h1>
 
 <h2>Background</h2>
