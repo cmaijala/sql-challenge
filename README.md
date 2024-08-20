@@ -1,21 +1,21 @@
 # sql-challenge
 
-Module 9 Challenge
+<h1>Module 9</h1>
 
-Background
+<h2>Background</h2>
 
 It’s been two weeks since you were hired as a new data engineer at Pewlett Hackard (a fictional company). Your first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files.
 
 For this project, you’ll design the tables to hold the data from the CSV files, import the CSV files into a SQL database, and then answer questions about the data. That is, you’ll perform data modeling, data engineering, and data analysis, respectively.
 
-Instructions
+<h2>Instructions</h2>
 This Challenge is divided into three parts: data modeling, data engineering, and data analysis.
 
-Data Modeling
+<h3>Data Modeling</h3>
 
 Inspect the CSV files, and then sketch an Entity Relationship Diagram of the tables. 
 
-Data Engineering
+<h3>Data Engineering</h3>
 
 Use the provided information to create a table schema for each of the six CSV files. Be sure to do the following:
 
@@ -27,7 +27,7 @@ Be sure to create the tables in the correct order to handle the foreign keys.
 
 Import each CSV file into its corresponding SQL table.
 
-Data Analysis
+<h3>Data Analysis</h3>
 
 List the employee number, last name, first name, sex, and salary of each employee.
 
