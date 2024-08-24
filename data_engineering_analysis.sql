@@ -12,11 +12,17 @@ CREATE TABLE departments (
     dept_name VARCHAR(30) NOT NULL
 );
 
+--View departments table
+SELECT * FROM departments;
+
 -- Create titles table
 CREATE TABLE titles (
     title_id VARCHAR(10) PRIMARY KEY,
     title VARCHAR(50) NOT NULL
 );
+
+--View departments table
+SELECT * FROM titles;
 
 -- Create employees table
 CREATE TABLE employees (
@@ -30,6 +36,9 @@ CREATE TABLE employees (
     FOREIGN KEY (emp_title_id) REFERENCES titles(title_id)
 );
 
+--View employees table
+SELECT * FROM employees;
+
 -- Create dept_emp table
 CREATE TABLE dept_emp (
     emp_no INT,
@@ -38,6 +47,9 @@ CREATE TABLE dept_emp (
     FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
     FOREIGN KEY (dept_no) REFERENCES departments(dept_no)
 );
+
+--View dept_emp table
+SELECT * FROM dept_emp;
 
 -- Create dept_manager table
 CREATE TABLE dept_manager (
@@ -48,6 +60,9 @@ CREATE TABLE dept_manager (
     FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
 
+--View dept_manager table
+SELECT * FROM dept_manager;
+
 -- Create salaries table
 CREATE TABLE salaries (
     emp_no INT,
@@ -56,22 +71,7 @@ CREATE TABLE salaries (
     FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
 
--- DATA ANALYSIS 
-
--- 1.) List the employee number, last name, first name, sex, and salary of each employee.
-
--- 2.) List the first name, last name, and hire date for the employees who were hired in 1986.
-
--- 3.) List the manager of each department along with their department number, department name, employee number, last name, and first name.
-
--- 4.) List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
-
--- 5.) List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
-
--- 6.) List each employee in the Sales department, including their employee number, last name, and first name.
-
--- 7.) List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
-
--- 8.) List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+--View salaries table
+SELECT * FROM salaries;
 
 
